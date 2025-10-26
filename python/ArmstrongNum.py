@@ -1,4 +1,4 @@
-def armstrong(n):
+def narcissistic(n):
     #converting the number to string to count the number og digits
     n_str = str(n)
     n_digits = len(n_str)
@@ -13,7 +13,7 @@ def armstrong(n):
 #input
 num = int(input('Enter the number:'))
 #checking
-if armstrong(num):
+if narcissistic(num):
     print(f'{num} is an armstrong number')
 else:
     print(f'{num} is not an armstrong number')
